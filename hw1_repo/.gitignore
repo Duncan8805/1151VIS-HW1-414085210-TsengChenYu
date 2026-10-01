@@ -1,14 +1,15 @@
-# ---- HTML / 前端專案 .gitignore ----
-# 相依套件
+# dependencies
 node_modules/
-# 記錄檔與暫存
+# build output
+dist/
+# logs
 *.log
 npm-debug.log*
-# 編輯器 / 作業系統
+# editor / OS
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-# 建置輸出（本專案為單檔，通常用不到）
-dist/
-build/
+# env
+.env
+.env.local
